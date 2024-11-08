@@ -1,3 +1,7 @@
-const message = 'Hello worm';
+import { setupServer } from './server.js';
 
-console.log(message);
+const bootstrap = async () => {
+    setupServer();
+};
+
+bootstrap();
